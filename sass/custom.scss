@@ -1,0 +1,18 @@
+// Typography
+
+$text-color: white;
+$base-font-size: 1rem;
+$base-font-weight: normal;
+$primary-font-family: sans-serif;
+$secondary-font-family: serif;
+
+
+body {
+  color: $text-color;
+  font-size: $base-font-size;
+  font-family: $primary-font-family;
+  font-weight: $base-font-weight;
+  line-height: 1.6;
+}
+
+

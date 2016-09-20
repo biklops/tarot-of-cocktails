@@ -6,13 +6,31 @@ $base-font-weight: normal;
 $primary-font-family: sans-serif;
 $secondary-font-family: serif;
 
-
 body {
-  color: $text-color;
-  font-size: $base-font-size;
-  font-family: $primary-font-family;
-  font-weight: $base-font-weight;
-  line-height: 1.6;  
+    color: $text-color;
+    font-size: $base-font-size;
+    font-family: $primary-font-family;
+    font-weight: $base-font-weight;
+    line-height: 1.6;
 }
 
+.subhead {
+    font {
+        family: $secondary-font-family;
+    }
+}
 
+// Buttons
+
+.btn {
+    display: block;
+    max-width: 80%;
+    font-size: 1.5rem;
+} 
+
+#katy {
+    background-size: contain !important;
+    background-position: top right !important;
+    background-repeat: no-repeat !important; 
+    
+}

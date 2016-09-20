@@ -4,3 +4,16 @@ body {
   font-family: sans-serif;
   font-weight: normal;
   line-height: 1.6; }
+
+.subhead font {
+  family: serif; }
+
+.btn {
+  display: block;
+  max-width: 80%;
+  font-size: 1.5rem; }
+
+#katy {
+  background-size: contain !important;
+  background-position: top right !important;
+  background-repeat: no-repeat !important; }

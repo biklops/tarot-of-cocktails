@@ -1,3 +1,13 @@
+// MIXINS
+
+@mixin imagecontain() {
+    background-size: contain !important;
+    background-repeat: no-repeat !important; 
+    
+}
+
+// Colors
+
 // Typography
 
 $text-color: white;
@@ -28,9 +38,15 @@ body {
     font-size: 1.5rem;
 } 
 
+
+// Sections
+
+#thecards {
+
+    background-color: #050546;
+}
+
 #katy {
-    background-size: contain !important;
+   @include imagecontain();
     background-position: top right !important;
-    background-repeat: no-repeat !important; 
-    
 }

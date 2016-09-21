@@ -13,7 +13,10 @@ body {
   max-width: 80%;
   font-size: 1.5rem; }
 
+#thecards {
+  background-color: #050546; }
+
 #katy {
   background-size: contain !important;
-  background-position: top right !important;
-  background-repeat: no-repeat !important; }
+  background-repeat: no-repeat !important;
+  background-position: top right !important; }

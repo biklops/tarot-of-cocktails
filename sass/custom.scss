@@ -45,9 +45,11 @@ p {
     &.lead {
         font-size: $base-font-size;
         line-height: 26px;}
+    &.narrow {
+        max-width: 500px;
+    }
     &.tiny {
         font-size: $tiny-font;
-        
     }
     
     }
@@ -88,9 +90,14 @@ p {
 
 div {
     &.centered {
-        
         margin: 0 auto;
         float: none;
+    }
+    &.bottomdocker {
+           position: absolute !important;
+    margin-bottom: 5rem;
+        bottom: 0;
+        
     }
     
 }
@@ -110,11 +117,4 @@ footer {
 
 // Effects
 
-.v-align-transform {
-    &.bottomdocker {
-            transform: translate3d(0, 20%, 0);
-    -webkit-transform: translate3d(0, 20%, 0);
-        
-    }
     
-}

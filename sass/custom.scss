@@ -18,6 +18,7 @@ $base-font-size: 17px;
 $base-font-weight: normal;
 $primary-font-family: sans-serif;
 $secondary-font-family: serif;
+$fancy-font-family: serif;
 $tiny-font: 1.25rem;
 
 @mixin basetypography () {
@@ -92,15 +93,22 @@ div {
     &.centered {
         margin: 0 auto;
         float: none;
+        text-align: center;
+        
+        p {
+            margin: 0 auto;}
     }
+    
     &.bottomdocker {
            position: absolute !important;
     margin-bottom: 5rem;
         bottom: 0;
-        
+        left: 0;
+        right: 0;  
     }
-    
 }
+
+#thedrinks .centered {margin-bottom: 8rem;}
 
 #katy {
    @include imagecontain();

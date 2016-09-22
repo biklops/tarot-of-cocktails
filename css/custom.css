@@ -40,11 +40,19 @@ p {
 
 div.centered {
   margin: 0 auto;
-  float: none; }
+  float: none;
+  text-align: center; }
+  div.centered p {
+    margin: 0 auto; }
 div.bottomdocker {
   position: absolute !important;
   margin-bottom: 5rem;
-  bottom: 0; }
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+#thedrinks .centered {
+  margin-bottom: 8rem; }
 
 #katy {
   background-size: contain !important;

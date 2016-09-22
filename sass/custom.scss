@@ -3,26 +3,55 @@
 @mixin imagecontain() {
     background-size: contain !important;
     background-repeat: no-repeat !important; 
-    
 }
 
 // Colors
 
+$black: #0b0b0b;
+$bg-primary: white;
+$bg-secondary: $black;
+
 // Typography
 
 $text-color: white;
-$base-font-size: 16px;
+$base-font-size: 17px;
 $base-font-weight: normal;
 $primary-font-family: sans-serif;
 $secondary-font-family: serif;
+$tiny-font: 1.25rem;
+
+@mixin basetypography () {
+    
+text-color:$text-color;
+base-font-size: $base-font-size;
+base-font-weight: $base-font-weight;
+primary-font-family: $primary-font-family;
+secondary-font-family: $secondary-font-family;
+}
 
 body {
     color: $text-color;
     font-size: $base-font-size;
     font-family: $primary-font-family;
     font-weight: $base-font-weight;
-    line-height: 1.6;
+    line-height: 1.5;
 }
+
+p {
+    
+@include basetypography ();
+    &.centered 
+    {text-align: center;}
+    &.lead {
+        font-size: $base-font-size;
+        line-height: 26px;}
+    &.tiny {
+        font-size: $tiny-font;
+        
+    }
+    
+    }
+    
 
 .subhead {
     font {
@@ -41,12 +70,51 @@ body {
 
 // Sections
 
+.nav-bar {
+    
+    background-color: $black;
+    
+    .menu li a {
+        color: white;
+        opacity: 1.0;
+        
+    }
+}
+
 #thecards {
 
     background-color: #050546;
 }
 
+div {
+    &.centered {
+        
+        margin: 0 auto;
+        float: none;
+    }
+    
+}
+
 #katy {
    @include imagecontain();
     background-position: top right !important;
+}
+
+footer {
+    
+    &.bg-secondary {
+        background-color: $bg-secondary;
+        color: white;
+    }
+}
+
+// Effects
+
+.v-align-transform {
+    &.bottomdocker {
+            transform: translate3d(0, 20%, 0);
+    -webkit-transform: translate3d(0, 20%, 0);
+        
+    }
+    
 }

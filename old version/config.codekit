@@ -85,6 +85,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/fakeCards.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198565,
+		"inputAbbreviatedPath": "\/img\/fakeCards.jpg",
+		"outputAbbreviatedPath": "\/img\/fakeCards.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/katy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

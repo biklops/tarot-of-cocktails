@@ -1,0 +1,56 @@
+// Colors
+
+$red: #fc4f4f;
+$black: #0b0b0b;
+
+// Flex
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+justify-content: center;
+
+}
+
+// Columns & Grid
+
+@mixin col($col, $sum, $gap: 1em, $align: top, $first: false, $last: false) {
+  width: percentage($col/$sum);
+  margin-right: $gap;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: $align;
+  box-sizing: border-box;
+  padding-left: if($first, 0, $gap);
+  padding-right: if($last, 0, $gap);
+
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    vertical-align: $align;
+  }
+}
+
+
+// Fullscreen Sections
+
+@mixin fullscreen {
+    @include flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fullscreen {
+    @include fullscreen;
+}
+
+// Background Images
+
+@mixin background($imgpath,$position:center center,$repeat: no-repeat,$size: cover) {
+    background: { 
+        image: url($imgpath);
+        position: $position;
+        repeat: $repeat;
+        size: $size;
+    }
+}

@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.fullscreen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw; }
+
+body {
+  line-height: 24px; }
+
+p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 0; }
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 32px;
+  margin-top: 0;
+  line-height: 40px;
+  text-align: center; }
+
+h2 {
+  font-size: 32px;
+  line-height: 28px;
+  margin-bottom: 24px;
+  text-align: center; }
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px; }
+
+.subhead {
+  font-size: 16px; }
+
+body {
+  font-family: 'Work Sans', sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: capitalize; }
+
+h1 {
+  display: inline-block;
+  text-align: center; }
+
+p.price {
+  margin-bottom: 32px; }
+
+.btn {
+  border: 2px solid #fc4f4f;
+  color: #fc4f4f;
+  background-color: transparent;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: 8px 48px;
+  margin-top: 16px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease; }
+  .btn:hover {
+    background-color: #fc4f4f;
+    color: white; }
+
+nav {
+  background-color: #0b0b0b;
+  height: 8vh; }
+
+footer {
+  background-color: #0b0b0b;
+  height: 15vh; }
+
+.flexslider {
+  background: transparent none repeat scroll 0 0;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 56px;
+  position: relative;
+  width: 22vw; }
+  .flexslider img {
+    margin: 0 auto; }
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 32px; }
+
+#section-1 {
+  background-image: url("/img/cloudhand.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column; }
+
+#section-2 {
+  background-image: url("/img/yellowsetup.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: yellow;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center; }
+  #section-2 aside {
+    width: 33.3333333333%;
+    margin-right: 1em;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-right: 1em; }
+    @media only screen and (max-width: 768px) {
+      #section-2 aside {
+        width: 100%;
+        vertical-align: top; } }
+
+#section-3 {
+  background-color: blue;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center; }
+  #section-3 aside {
+    width: 75%;
+    margin-right: 1em;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-right: 1em; }
+    @media only screen and (max-width: 768px) {
+      #section-3 aside {
+        width: 100%;
+        vertical-align: top; } }
+
+#section-4 {
+  background-color: mediumpurple;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center; }
+  #section-4 aside {
+    width: 75%;
+    margin-right: 1em;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-right: 1em; }
+    @media only screen and (max-width: 768px) {
+      #section-4 aside {
+        width: 100%;
+        vertical-align: top; } }
+
+#section-5 {
+  background-image: url("/img/katy.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 80vh; }
+  #section-5 aside {
+    width: 50%;
+    margin-right: 1em;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-right: 1em; }
+    @media only screen and (max-width: 768px) {
+      #section-5 aside {
+        width: 100%;
+        vertical-align: top; } }
+    #section-5 aside p {
+      text-align: left; }

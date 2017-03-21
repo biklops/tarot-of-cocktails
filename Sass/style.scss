@@ -1,0 +1,22 @@
+// Base & Reset
+@import "_partials/_base.scss";
+
+// Partials
+// @import "_partials/_variables.scss";
+@import "_partials/_mixins-and-variables.scss";
+@import "_partials/typography.scss";
+@import "_partials/_buttons.scss";
+@import "_partials/forms.scss";
+// @import "_partials/buttons.scss";
+
+// Sections
+@import "_sections/_header.scss";
+@import "_sections/_footer.scss";
+@import "_sections/_slider.scss";
+
+// Layout
+
+@import "_layout/_homepage.scss";
+@import "_layout/_views.scss";
+
+// Third-party

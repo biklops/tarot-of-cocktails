@@ -1,0 +1,51 @@
+ // Font Scale
+body {
+    line-height: $unit*1.5;
+}
+
+p {
+    font-size: $unit;
+    text-align: center;
+    margin-bottom: $unit;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: $unit*3;
+    margin-bottom: $unit*2;
+    margin-top: 0;
+    line-height: $unit*2.5;
+    text-align: center;
+}
+
+h2 {
+    font-size: $unit*2;
+    line-height: $unit*1.75;
+    margin-bottom: $unit*1.5;
+    text-align: center;
+}
+
+h3 {
+    font-size: $unit*1.5;
+    margin-bottom: $unit*1.25;
+}
+
+.subhead {
+    font-size: $unit;
+}
+
+// Font Families
+
+body {font-family: 'Work Sans', sans-serif;}
+
+h1,h2,h3,h4,h5 {font-family: 'Cormorant Garamond', serif;
+text-transform: capitalize;
+}
+
+// Headers
+h1 {
+    display: inline-block;
+    text-align: center;
+}
+
+p.price {margin-bottom: $unit*2;}

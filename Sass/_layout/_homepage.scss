@@ -1,0 +1,70 @@
+// Oh So Flexy!
+
+section {
+    @include flex;
+    padding: $unit*2;
+}
+
+// Section-1
+
+#section-1 {
+    @include background('/img/cloudhand.jpg',center center, no-repeat, cover);
+background-color: red; 
+flex-flow: column;
+ 
+}
+
+#section-2 {
+        @include background('/img/yellowsetup.jpg', top left,no-repeat, cover);
+background-color: yellow; 
+flex-flow: row;
+justify-content: flex-end;
+text-align: center;
+
+    aside {
+        @include col (1,3 ); 
+
+    }
+
+}
+
+#section-3 {
+
+background-color:blue; 
+flex-flow: column; 
+justify-content: flex-end;
+text-align: center;
+
+    aside {
+        @include col (3,4 ); 
+
+    }
+}
+
+#section-4 {
+background-color:mediumpurple; 
+flex-flow: column; 
+justify-content: flex-end;
+text-align: center;
+
+    aside {
+        @include col (3,4 ); 
+
+    }
+}
+
+#section-5 {
+    @include background('/img/katy.jpg',top right,no-repeat,contain);
+background-color:white; 
+flex-flow: row; 
+justify-content: flex-start;
+height: 80vh;
+
+
+    aside {
+        @include col (1,2 ); 
+         
+            p {text-align: left;}
+
+    }
+}

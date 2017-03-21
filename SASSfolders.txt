@@ -1,0 +1,14 @@
+Sass
+	_partials
+		_base.scss
+		_forms.scss
+		_mixins.scss
+		_typography.scss
+		_variables.scss
+	sections
+		_footer.scss
+		_header.scss
+	layout
+		_homepage.scss
+		_views.scss		
+		_main.scss

@@ -1,5 +1,38 @@
 nav {
-
+    @include flex;
+    flex-flow: column;
+    flex-grow: 1;
+    justify-content: center;
     background-color: $black;
     height: 8vh;
+    padding: $unit $unit*4;
+        ul {
+            width: 100%;
+            @include flex;
+            flex-direction: row;
+            list-style-type: none;
+
+                li {
+                     @media only screen and (min-width: 768px) {
+    width: 100%;
+                    color: $gold;
+                    flex-grow: 1;
+                    text-align: center;
+
+                   
+
+  }
+
+                        a {
+                            color: $gold;
+                            display: block;
+                            text-transform: uppercase; 
+                            text-decoration: none;
+                            font-size: $unit*.75;
+                            line-height: $unit;
+                            letter-spacing: 1px;
+                        }
+                }
+
+        }
 }

@@ -2,68 +2,93 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tarot of Cocktails-the magical drink recipe deck</title>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tarot of Cocktails-the magical drink recipe deck</title>
 
 
-<link rel="stylesheet" href="js/flexslider.css" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="js/jquery.flexslider.js"></script>
+    <link rel="stylesheet" href="js/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
 
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Work+Sans" rel="stylesheet"> 
-        <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
-        <script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-        smoothHeight: true,
-        // itemWidth: 22vw,
+    <!--flex slider -->
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                    smoothHeight: true,
+                    // itemWidth: 22vw,
+                }
+
+            );
+        });
+    </script>
+
+    <!--smooth scroll links -->
+
+    <script type="text/javascript" charset="utf-8">
+    $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
     }
-        
-    );
   });
-</script>
+});
+   </script>
 
 
- 
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+</head>
+
+<body>
+    <!-- [if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <![endif] -->
 
-<nav>
-<ul>
-    <li><a href="#buy">buy</a hre></li>
-    <li><a href="#cards">the cards</a hr></li>
-    <li><a href="#drinks">the drinks</a hre></li>
-    <li><a href="#story">the story</a hr></li>
-</ul>
-
-</nav>
+  
+    <nav>
+        <ul>
+            <li><a href="#buy">buy it now</a></li>
+            <li><a href="#cards">the cards</a hr></li>
+            <li><a href="#drinks">the drinks</a hre></li>
+            <li><a href="#story">the story</a hr></li> 
+        </ul>
+ 
+    </nav> 
 
 <section id="section-1" class="fullscreen">
 
-<h1>
-    Tarot of Cocktails
-</h1>
-<!--<h2 class="subhead">A drink is in the cards.</h2>-->
-</section>
+<img id="logo" src="img/logo.svg" alt="Tarot of Cocktails">
 
+ <h1> Tarot of Cocktails</h1>   
+ 
+<!-- <h2 class="subhead">A drink is in the cards.</h2> -->
+</section>
+<a name="buy">
 <section id="section-2" class="fullscreen">
 
 <aside class="column">
-    <h1>
+    <h1> 
         Tarot of Cocktails
     </h1>
     
-    <p class="white">Tarot of Cocktails is an original drink recipe deck. Each of the 30 cards features a tarot-inspired illustration on one side and a craft cocktail recipe on the other. The deck includes a companion booklet featuring home bartending basics, tips & tricks for each recipe, a place to take notes and more.</p>
+    <p>Tarot of Cocktails is an original drink recipe deck. Each of the 30 cards features a tarot-inspired illustration on one side and a craft cocktail recipe on the other. The deck includes a companion booklet featuring home bartending basics, tips & tricks for each recipe, a place to take notes and more.</p>
     
     <p>$24 - FREE U.S. SHIPPING</p>
 
@@ -74,7 +99,7 @@
 </section>
 
 
-
+<a name="cards">
 <section id="section-3" class="fullscreen">
 
 <aside class="column">
@@ -86,7 +111,7 @@
     
 
 </section>
-
+<a name="drinks">
 <section id="section-4" class="fullscreen">
 
 <aside class="column">
@@ -112,7 +137,7 @@
     
 
 </section>
-
+<a name="story">
 <section id="section-5" class="fullscreen">
 
 <aside class="column">
@@ -128,13 +153,6 @@
 
 <footer>
 
-
 </footer>
-
-
-
-
-
-			
-    </body>
+</body>
 </html>

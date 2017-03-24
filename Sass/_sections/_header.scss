@@ -2,37 +2,51 @@ nav {
     @include flex;
     flex-flow: column;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: space-around;
     background-color: $black;
     height: 8vh;
     padding: $unit $unit*4;
-        ul {
-            width: 100%;
-            @include flex;
-            flex-direction: row;
-            list-style-type: none;
-
-                li {
-                     @media only screen and (min-width: 768px) {
-    width: 100%;
-                    color: $gold;
-                    flex-grow: 1;
-                    text-align: center;
-
-                   
-
-  }
-
-                        a {
-                            color: $gold;
-                            display: block;
-                            text-transform: uppercase; 
-                            text-decoration: none;
-                            font-size: $unit*.75;
-                            line-height: $unit;
-                            letter-spacing: 1px;
-                        }
-                }
-
+    @media only screen and (max-width: 767px) {
+        /* phones */
+        display: none;
+    }
+    ul {
+        width: 100%;
+        @include flex;
+        flex-direction: row;
+        list-style-type: none;
+        @media only screen and (max-width: 768px) {
+            flex-wrap: wrap;
         }
+        li {
+            width: 100%;
+            color: $gold;
+            flex-grow: 1;
+            text-align: center;
+        }
+        li {
+            @media only screen and (max-width: 768px) {
+                //   background-color: red;
+                width: 50%;
+                margin: 1px 0;
+                color: $gold;
+                flex-wrap: wrap;
+                flex-shrink: 1;
+            }
+            a {
+                transition: all .2s ease-in-out;
+                color: $gold;
+                display: block;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-size: $unit*.75;
+                line-height: $unit*2;
+                letter-spacing: 1px;
+
+                &:hover {
+                    transform: rotate(10deg);
+                }
+            }
+        }
+    }
 }

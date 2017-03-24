@@ -1,21 +1,33 @@
 // Oh So Flexy!
 
 section {
-    @include flex;
+    // @include flex;
     padding: $unit*2;
 }
 
-// Section-1
+// Sections
 
 #section-1 {
     @include background('/img/cloudhand.jpg',center center, no-repeat, cover);
-background-color: red; 
-flex-flow: column;
- 
+    flex-flow: column;
+    justify-content: flex-start;
+
+    h1 {
+        // @include background('/img/littlelogo.png', center center, contain);
+         @include visuallyhidden;
+        color: red;
+        height: 155px;
+        width: 260px;
+    }
+      #logo {
+        width: $unit*20;
+        margin-top: $unit*6;
+    }
 }
 
+
 #section-2 {
-        @include background('/img/yellowsetup.jpg', top left,no-repeat, cover);
+        @include background('/img/yellowsetup.jpg', center center,no-repeat, cover);
 background-color: yellow; 
 flex-flow: row;
 justify-content: flex-end;
@@ -26,23 +38,26 @@ text-align: center;
 
     }
 
+
 }
 
 #section-3 {
 
-background-color:blue; 
+background-color:$midnight; 
+color: white;
 flex-flow: column; 
 justify-content: flex-end;
 text-align: center;
 
     aside {
-        @include col (3,4 ); 
+        @include col (3,5 ); 
+        margin-bottom: $unit*3;
 
     }
 }
 
 #section-4 {
-background-color:white; 
+background-color: white; 
 flex-flow: column; 
 justify-content: flex-end;
 text-align: center;

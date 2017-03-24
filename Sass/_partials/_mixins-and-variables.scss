@@ -1,50 +1,51 @@
-// Colors
-
+ // Colors
 $red: #fc4f4f;
 $black: #0b0b0b;
-$gold: #f4b12a;
-
+$gold: #e9c244;
+$midnight: #05173f;
 // Fonts
-
-$sans: 'Work Sans', sans-serif;
-$serif: 'Cormorant Garamond', serif;
-
-
+$sans: 'Work Sans',
+sans-serif;
+$serif: 'Cormorant Garamond',
+serif;
 // Breakpoints 
-
 $mobile: 768px;
-
 // Flex
-
 @mixin flex {
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
+}
 
+// Visually Hidden
+@mixin visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 // Columns & Grid
-
 @mixin col($col, $sum, $gap: 1em, $align: top, $first: false, $last: false) {
-  width: percentage($col/$sum);
-  margin-right: $gap;
-  font-size: 16px;
-  display: inline-block;
-  vertical-align: $align;
-  box-sizing: border-box;
-  padding-left: if($first, 0, $gap);
-  padding-right: if($last, 0, $gap);
-
-
-  @media only screen and (max-width: 768px) {
-    width: 100%;
+    width: percentage($col/$sum);
+    margin-right: $gap;
+    font-size: 16px;
+    display: inline-block;
     vertical-align: $align;
-  }
+    box-sizing: border-box;
+    padding-left: if($first, 0, $gap);
+    padding-right: if($last, 0, $gap);
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        vertical-align: $align;
+    }
 }
 
-
 // Fullscreen Sections
-
 @mixin fullscreen {
     @include flex;
     height: 100vh;
@@ -56,9 +57,8 @@ justify-content: center;
 }
 
 // Background Images
-
-@mixin background($imgpath,$position:center center,$repeat: no-repeat,$size: cover) {
-    background: { 
+@mixin background($imgpath, $position:center center, $repeat: no-repeat, $size: cover) {
+    background: {
         image: url($imgpath);
         position: $position;
         repeat: $repeat;

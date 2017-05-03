@@ -21,7 +21,8 @@ section {
     }
       #logo {
         width: $unit*20;
-        margin-top: $unit*6;
+        margin-top: 7%;
+        max-width: 20%;
     }
 }
 
@@ -70,12 +71,14 @@ text-align: center;
 
 #section-5 {
     @include background('/img/katy.jpg',top right,no-repeat,contain);
-background-color:white; 
+background-color: #f7faf8; 
 flex-flow: row; 
 justify-content: flex-start;
 height: 80vh;
 
-
+	h1 {
+		color: red;
+	}
     aside {
         @include col (1,2 ); 
          

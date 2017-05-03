@@ -7,7 +7,7 @@
 		"uuidString": "84A84351-ADDF-4ED0-9CC5-75F60F4795E7"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.vscode\/settings.json": {
 		"ft": 524288,
@@ -16,6 +16,513 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/_old version\/css\/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/bootstrap-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/css\/custom.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/custom-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/css\/flexslider.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/flexslider-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/css\/font-awesome.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/css\/font-poppins.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/font-poppins-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/css\/theme-chipotle-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/theme-chipotle-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/css\/theme-chipotle.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/theme-chipotle-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/css\/theme-fire.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/theme-fire-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/css\/themify-icons.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/themify-icons-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/fonts\/et-line.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/et-line.eot",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/et-line.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/et-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_old version\/fonts\/et-line.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/et-line.ttf",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/et-line.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/et-line.woff",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_old version\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/glyphicons-halflings-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/glyphicons-halflings-regular.eot",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/glyphicons-halflings-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/glyphicons-halflings-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_old version\/fonts\/glyphicons-halflings-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/glyphicons-halflings-regular.ttf",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/glyphicons-halflings-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/glyphicons-halflings-regular.woff",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/Pe-icon-7-stroke.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/Pe-icon-7-stroke.eot",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/Pe-icon-7-stroke.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/Pe-icon-7-stroke.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_old version\/fonts\/Pe-icon-7-stroke.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/Pe-icon-7-stroke.ttf",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/Pe-icon-7-stroke.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/Pe-icon-7-stroke.woff",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/themify.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/themify.eot",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/themify.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/themify.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_old version\/fonts\/themify.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/themify.ttf",
+		"oF": 0
+		},
+	"\/_old version\/fonts\/themify.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/fonts\/themify.woff",
+		"oF": 0
+		},
+	"\/_old version\/img\/cards.jpg": {
+		"ft": 16384,
+		"iS": 151315,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/cards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_old version\/img\/fakeCards.jpg": {
+		"ft": 16384,
+		"iS": 198565,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/fakeCards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_old version\/img\/katy.jpg": {
+		"ft": 16384,
+		"iS": 578287,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/katy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_old version\/img\/lightbox\/close.png": {
+		"ft": 32768,
+		"iS": 289,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/lightbox\/close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_old version\/img\/lightbox\/loading.gif": {
+		"ft": 4194304,
+		"iS": 8476,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/lightbox\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_old version\/img\/lightbox\/next.png": {
+		"ft": 32768,
+		"iS": 1350,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/lightbox\/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_old version\/img\/lightbox\/prev.png": {
+		"ft": 32768,
+		"iS": 1701,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/lightbox\/prev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_old version\/img\/yellowpic.jpg": {
+		"ft": 16384,
+		"iS": 2805358,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/yellowpic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_old version\/img\/yellowsetup.jpg": {
+		"ft": 16384,
+		"iS": 1038758,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/yellowsetup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_old version\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/index.html",
+		"oF": 0
+		},
+	"\/_old version\/js\/bootstrap.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/bootstrap-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/flexslider.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/flexslider.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/lightbox.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/lightbox.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/masonry.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/masonry.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/parallax.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/parallax-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/scripts.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/smooth-scroll.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/smooth-scroll.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/smooth-scroll.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/smooth-scroll.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/spectragram.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/spectragram.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/spectragram.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/spectragram.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/twitterfetcher.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/twitterfetcher.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/ytplayer.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/ytplayer.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/sass\/.sass-cache\/53c174b57df031c2d616c04ffb8514de494b12c0\/custom.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/sass\/.sass-cache\/53c174b57df031c2d616c04ffb8514de494b12c0\/custom.scssc",
+		"oF": 0
+		},
+	"\/_old version\/sass\/.sass-cache\/c1918e8887ef4b0720542976f087ab59060e885e\/custom.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/sass\/.sass-cache\/c1918e8887ef4b0720542976f087ab59060e885e\/custom.scssc",
+		"oF": 0
+		},
+	"\/_old version\/sass\/custom.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/custom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_old version\/sass\/theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/sass\/theme.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
 		},
 	"\/css\/_mixins-and-variables.css": {
 		"aP": 1,
@@ -43,6 +550,7 @@
 		"oA": 0,
 		"oAP": "\/img\/cards.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -52,37 +560,41 @@
 		"oA": 0,
 		"oAP": "\/img\/cloudhand.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/img\/drink1.png": {
 		"ft": 32768,
 		"iS": 1388371,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/drink1.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/drink2.png": {
 		"ft": 32768,
 		"iS": 1061226,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/drink2.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/drink3.png": {
 		"ft": 32768,
 		"iS": 1347795,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/drink3.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/fakeCards.jpg": {
@@ -91,6 +603,7 @@
 		"oA": 0,
 		"oAP": "\/img\/fakeCards.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -100,17 +613,19 @@
 		"oA": 0,
 		"oAP": "\/img\/katy.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/img\/lightbox\/close.png": {
 		"ft": 32768,
 		"iS": 289,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/lightbox\/close.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/lightbox\/loading.gif": {
@@ -124,31 +639,34 @@
 	"\/img\/lightbox\/next.png": {
 		"ft": 32768,
 		"iS": 1350,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/lightbox\/next.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/lightbox\/prev.png": {
 		"ft": 32768,
 		"iS": 1701,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/lightbox\/prev.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/littlelogo.png": {
 		"ft": 32768,
 		"iS": 8146,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/littlelogo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/logo.svg": {
@@ -167,6 +685,7 @@
 		"oA": 0,
 		"oAP": "\/img\/yellowpic.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -176,6 +695,7 @@
 		"oA": 0,
 		"oAP": "\/img\/yellowsetup.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1303,6 +1823,7 @@
 		"oA": 0,
 		"oAP": "\/js\/demo\/images\/kitchen_adventurer_caramel.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1312,6 +1833,7 @@
 		"oA": 0,
 		"oAP": "\/js\/demo\/images\/kitchen_adventurer_cheesecake_brownie.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1321,6 +1843,7 @@
 		"oA": 0,
 		"oAP": "\/js\/demo\/images\/kitchen_adventurer_donut.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1330,17 +1853,19 @@
 		"oA": 0,
 		"oAP": "\/js\/demo\/images\/kitchen_adventurer_lemon.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/js\/demo\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 3575,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/js\/demo\/images\/logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/js\/demo\/index.html": {
@@ -1536,11 +2061,12 @@
 	"\/js\/images\/bg_play_pause.png": {
 		"ft": 32768,
 		"iS": 1546,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/js\/images\/bg_play_pause.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/js\/jquery.flexslider-min.js": {
@@ -1616,505 +2142,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/old version\/css\/bootstrap.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/bootstrap-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/css\/custom.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/custom-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/css\/flexslider.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/flexslider-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/css\/font-awesome.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/font-awesome.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/css\/font-poppins.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/font-poppins-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/css\/theme-chipotle-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/theme-chipotle-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/css\/theme-chipotle.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/theme-chipotle-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/css\/theme-fire.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/theme-fire-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/css\/themify-icons.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old version\/css\/themify-icons-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/old version\/fonts\/et-line.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/et-line.eot",
-		"oF": 0
-		},
-	"\/old version\/fonts\/et-line.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/et-line.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/old version\/fonts\/et-line.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/et-line.ttf",
-		"oF": 0
-		},
-	"\/old version\/fonts\/et-line.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/et-line.woff",
-		"oF": 0
-		},
-	"\/old version\/fonts\/fontawesome-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/fontawesome-webfont.eot",
-		"oF": 0
-		},
-	"\/old version\/fonts\/fontawesome-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/fontawesome-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/old version\/fonts\/fontawesome-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/fontawesome-webfont.ttf",
-		"oF": 0
-		},
-	"\/old version\/fonts\/fontawesome-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/fontawesome-webfont.woff",
-		"oF": 0
-		},
-	"\/old version\/fonts\/fontawesome-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/fontawesome-webfont.woff2",
-		"oF": 0
-		},
-	"\/old version\/fonts\/FontAwesome.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/FontAwesome.otf",
-		"oF": 0
-		},
-	"\/old version\/fonts\/glyphicons-halflings-regular.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/glyphicons-halflings-regular.eot",
-		"oF": 0
-		},
-	"\/old version\/fonts\/glyphicons-halflings-regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/glyphicons-halflings-regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/old version\/fonts\/glyphicons-halflings-regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/glyphicons-halflings-regular.ttf",
-		"oF": 0
-		},
-	"\/old version\/fonts\/glyphicons-halflings-regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/glyphicons-halflings-regular.woff",
-		"oF": 0
-		},
-	"\/old version\/fonts\/Pe-icon-7-stroke.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/Pe-icon-7-stroke.eot",
-		"oF": 0
-		},
-	"\/old version\/fonts\/Pe-icon-7-stroke.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/Pe-icon-7-stroke.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/old version\/fonts\/Pe-icon-7-stroke.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/Pe-icon-7-stroke.ttf",
-		"oF": 0
-		},
-	"\/old version\/fonts\/Pe-icon-7-stroke.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/Pe-icon-7-stroke.woff",
-		"oF": 0
-		},
-	"\/old version\/fonts\/themify.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/themify.eot",
-		"oF": 0
-		},
-	"\/old version\/fonts\/themify.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/themify.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/old version\/fonts\/themify.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/themify.ttf",
-		"oF": 0
-		},
-	"\/old version\/fonts\/themify.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/fonts\/themify.woff",
-		"oF": 0
-		},
-	"\/old version\/img\/cards.jpg": {
-		"ft": 16384,
-		"iS": 151315,
-		"oA": 0,
-		"oAP": "\/old version\/img\/cards.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/old version\/img\/fakeCards.jpg": {
-		"ft": 16384,
-		"iS": 198565,
-		"oA": 0,
-		"oAP": "\/old version\/img\/fakeCards.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/old version\/img\/katy.jpg": {
-		"ft": 16384,
-		"iS": 578287,
-		"oA": 0,
-		"oAP": "\/old version\/img\/katy.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/old version\/img\/lightbox\/close.png": {
-		"ft": 32768,
-		"iS": 280,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/old version\/img\/lightbox\/close.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/old version\/img\/lightbox\/loading.gif": {
-		"ft": 4194304,
-		"iS": 8476,
-		"oA": 0,
-		"oAP": "\/old version\/img\/lightbox\/loading.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/old version\/img\/lightbox\/next.png": {
-		"ft": 32768,
-		"iS": 1350,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/old version\/img\/lightbox\/next.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/old version\/img\/lightbox\/prev.png": {
-		"ft": 32768,
-		"iS": 1360,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/old version\/img\/lightbox\/prev.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/old version\/img\/yellowpic.jpg": {
-		"ft": 16384,
-		"iS": 2805358,
-		"oA": 0,
-		"oAP": "\/old version\/img\/yellowpic.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/old version\/img\/yellowsetup.jpg": {
-		"ft": 16384,
-		"iS": 1038758,
-		"oA": 0,
-		"oAP": "\/old version\/img\/yellowsetup.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/old version\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/index.html",
-		"oF": 0
-		},
-	"\/old version\/js\/bootstrap.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/bootstrap-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/bootstrap.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/bootstrap.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/flexslider.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/flexslider.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/jquery.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/jquery.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/lightbox.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/lightbox.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/masonry.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/masonry.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/parallax.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/parallax-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/scripts.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/scripts-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/smooth-scroll.min-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/smooth-scroll.min-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/smooth-scroll.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/smooth-scroll.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/spectragram.min-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/spectragram.min-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/spectragram.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/spectragram.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/twitterfetcher.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/twitterfetcher.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/js\/ytplayer.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/old version\/js\/ytplayer.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/old version\/sass\/.sass-cache\/53c174b57df031c2d616c04ffb8514de494b12c0\/custom.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/sass\/.sass-cache\/53c174b57df031c2d616c04ffb8514de494b12c0\/custom.scssc",
-		"oF": 0
-		},
-	"\/old version\/sass\/.sass-cache\/c1918e8887ef4b0720542976f087ab59060e885e\/custom.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/old version\/sass\/.sass-cache\/c1918e8887ef4b0720542976f087ab59060e885e\/custom.scssc",
-		"oF": 0
-		},
-	"\/old version\/sass\/custom.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/custom.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/old version\/sass\/theme.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/old version\/sass\/theme.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
 		},
 	"\/Sass\/_layout\/_homepage.scss": {
 		"aP": 1,
@@ -3252,6 +3279,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -4076,14 +4107,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -4146,7 +4169,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {

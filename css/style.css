@@ -235,7 +235,8 @@ section {
     width: 260px; }
   #section-1 #logo {
     width: 320px;
-    margin-top: 96px; }
+    margin-top: 7%;
+    max-width: 20%; }
 
 #section-2 {
   background-image: url("/img/yellowsetup.jpg");

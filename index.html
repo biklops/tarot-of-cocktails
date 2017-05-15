@@ -34,24 +34,27 @@
         });
     </script>
 
+
+
     <!--smooth scroll links -->
 
     <script type="text/javascript" charset="utf-8">
-    $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-   </script>
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
 
 
 </head>
@@ -61,7 +64,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif] -->
 
-  
+
     <nav>
         <ul>
             <li><a href="#buy">buy it now</a></li>
@@ -89,11 +92,30 @@
     </h1>
     
     <p>Tarot of Cocktails is an original drink recipe deck. Each of the 30 cards features a tarot-inspired illustration on one side and a craft cocktail recipe on the other. The deck includes a companion booklet featuring home bartending basics, tips & tricks for each recipe, a place to take notes and more.</p>
-    
-    <p>$24 - FREE U.S. SHIPPING</p>
 
-      <form action="#" method="get">
-          <button class="btn">buy now</button>
+
+     <form action="/your-server-side-code" method="POST" class="btn">
+    <script
+  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+  data-key="pk_test_vAJ2y2lxn32HJlIRI4pUpeXy" 
+  data-amount="2000"
+  data-name="Stripe.com"
+  data-description="Tarot of Cocktails card deck"
+    data-zip-code="true"
+    data-shipping-address="true"
+  "shipping_name": "Stripe",
+"shipping_address_country": "United States",
+"shipping_address_zip": "94111",
+"shipping_address_state": "CA",
+"shipping_address_line1": "1234 Main Street",
+"shipping_address_city": "San Francisco",
+"shipping_address_country_code": "US"
+
+  <!--data-image="https://stripe.com/img/documentation/checkout/marketplace.png"-->
+  data-locale="auto"
+  data-zip-code="true">
+</script>
+          <button>buy now</button>
           </form>
       
 </section>
@@ -111,32 +133,33 @@
     
 
 </section>
+
 <a name="drinks">
 <section id="section-4" class="fullscreen">
 
-<aside class="column">
+    <aside class="column">
 
-<div class="flexslider">
-  <ul class="slides">
-    <li>
-      <img src="img/drink1.png" />
-    </li>
-    <li>
-      <img src="img/drink2.png" />
-    </li>
-    <li>
-      <img src="img/drink3.png" />
-    </li>
-  </ul>
-</div>
+    <div class="flexslider">
+         <ul class="slides">
+            <li>
+            <img src="img/drink1.png" />
+            </li>
+            <li>
+            <img src="img/drink2.png" />
+            </li>
+            <li>
+            <img src="img/drink3.png" />
+            </li>
+        </ul>
+    </div>
     <h1>
         The Drinks
     </h1>
     
     <p class="white">Created with the casual connoisseur in mind, the deck’s drink recipes are a mix of imaginative originals and riffs on classics. The aspirational yet accessible selection includes stiff sippers, boozy floats, light summery drinks and more.</p>
-    
 
 </section>
+
 <a name="story">
 <section id="section-5" class="fullscreen">
 
@@ -144,9 +167,12 @@
     <h1>
         The Story
     </h1>
-    
-    <p class="white"> A multi-faceted creative based in Portland, OR, Katy combined her knack for craft cocktails with her admiration of classic tarot cards to bring this dream project to life. As soon as she dove into the project, it seemed that Tarot of Cocktails was written in the stars. From drawing the cards to formulating the recipes, it was a labor of love and she hopes you love it!
-</p>
+        <p class="white"> A multi-faceted creative based in Portland, OR, Katy combined her knack for craft cocktails with her admiration of classic tarot cards to bring this dream project to life. As soon as she dove into the project, it seemed that Tarot of Cocktails was written in the stars. From drawing the cards to formulating the recipes, it was a labor of love and she hopes you love it!
+        </p>
+</aside>
+
+<aside class="column">
+        <img src="img/katy.jpg">
 </aside>
 
 </section>

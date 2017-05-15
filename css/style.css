@@ -115,6 +115,14 @@ p.price {
   .btn:hover {
     background-color: #fc4f4f;
     color: white; }
+  .btn button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: white; }
+
+.stripe-button-el {
+  display: none !important; }
 
 nav {
   display: -webkit-box;
@@ -321,7 +329,7 @@ section {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: white;
+  background-color: #f7faf8;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
@@ -330,6 +338,8 @@ section {
       -ms-flex-pack: start;
           justify-content: flex-start;
   height: 80vh; }
+  #section-5 h1 {
+    color: red; }
   #section-5 aside {
     width: 50%;
     margin-right: 1em;
@@ -345,3 +355,6 @@ section {
         vertical-align: top; } }
     #section-5 aside p {
       text-align: left; }
+    #section-5 aside img {
+      height: 100%;
+      width: 100%; }

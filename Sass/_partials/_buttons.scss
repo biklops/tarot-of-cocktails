@@ -4,7 +4,7 @@
     background-color: transparent;
     font-size: $unit;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1px; 
     width: 100%;
     padding: $unit*.5 $unit*3;
     margin-top: $unit;
@@ -19,4 +19,15 @@
             background-color: $red;
             color: white;
         }
+        button {
+            background: transparent;
+            border: none;
+            font-size: $unit;
+            color:white;
+        }
+}
+
+.stripe-button-el {
+   display: none !important;
+
 }

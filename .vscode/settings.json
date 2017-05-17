@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "workbench.colorTheme": "Panda Syntax",
+    "workbench.colorTheme": "Monokai",
     "sync.gist": "",
     "sync.lastUpload": "",
     "sync.autoDownload": false,

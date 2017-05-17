@@ -1,3 +1,4 @@
+ 
  // Colors
 $red: #fc4f4f;
 $black: #0b0b0b;
@@ -8,8 +9,10 @@ $sans: 'Work Sans',
 sans-serif;
 $serif: 'Cormorant Garamond',
 serif;
+
 // Breakpoints 
-$mobile: 768px;
+$phone: 768px;
+
 // Flex
 @mixin flex {
     display: flex;
@@ -32,16 +35,24 @@ $mobile: 768px;
 // Columns & Grid
 @mixin col($col, $sum, $gap: 1em, $align: top, $first: false, $last: false) {
     width: percentage($col/$sum);
+    height: auto;
     margin-right: $gap;
     font-size: 16px;
     display: inline-block;
-    vertical-align: $align;
+    vertical-align: $align; 
     box-sizing: border-box;
     padding-left: if($first, 0, $gap);
     padding-right: if($last, 0, $gap);
-    @media only screen and (max-width: 768px) {
-        width: 100%;
+    padding-top: $unit*3;
+    padding-bottom: $unit*3;
+
+    @media only screen and (max-width: $phone) {
+        min-width: 100%;
         vertical-align: $align;
+        display: block;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -54,6 +65,13 @@ $mobile: 768px;
 
 .fullscreen {
     @include fullscreen;
+    @media only screen and (max-width: $phone) {
+        align-items: flex-start;
+        flex-flow: column !important;
+        .aside {
+
+        }
+    }
 }
 
 // Background Images

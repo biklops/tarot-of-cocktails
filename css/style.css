@@ -1,3 +1,4 @@
+/* line 3, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_base.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,31 +20,39 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
+/* line 24, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_base.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+/* line 28, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_base.scss */
 body {
   line-height: 1; }
 
+/* line 31, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_base.scss */
 ol, ul {
   list-style: none; }
 
+/* line 34, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_base.scss */
 blockquote, q {
   quotes: none; }
 
+/* line 37, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_base.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
+/* line 42, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_base.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 50, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_base.scss */
 * {
   box-sizing: border-box; }
 
+/* line 66, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_mixins-and-variables.scss */
 .fullscreen {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,16 +65,29 @@ table {
           justify-content: center;
   height: 100vh;
   width: 100vw; }
+  @media only screen and (max-width: 768px) {
+    /* line 66, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_mixins-and-variables.scss */
+    .fullscreen {
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+          -ms-flex-flow: column !important;
+              flex-flow: column !important; } }
 
+/* line 2, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 body {
   line-height: 24px; }
 
+/* line 6, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 p {
   font-size: 16px;
   text-align: center;
   margin-bottom: 16px;
   margin-top: 0; }
 
+/* line 13, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 h1 {
   font-size: 48px;
   margin-bottom: 32px;
@@ -73,33 +95,41 @@ h1 {
   line-height: 40px;
   text-align: center; }
 
+/* line 21, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 h2 {
   font-size: 32px;
   line-height: 28px;
   margin-bottom: 24px;
   text-align: center; }
 
+/* line 28, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 h3 {
   font-size: 24px;
   margin-bottom: 20px; }
 
+/* line 33, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 .subhead {
   font-size: 16px; }
 
+/* line 41, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 body {
   font-family: 'Work Sans', sans-serif; }
 
+/* line 43, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: 'Cormorant Garamond', serif;
   text-transform: capitalize; }
 
+/* line 48, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 h1 {
   display: inline-block;
   text-align: center; }
 
+/* line 53, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_typography.scss */
 p.price {
   margin-bottom: 32px; }
 
+/* line 14, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_buttons.scss */
 .btn {
   border: 2px solid #fc4f4f;
   color: #fc4f4f;
@@ -112,18 +142,22 @@ p.price {
   margin-top: 16px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease; }
+  /* line 18, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_buttons.scss */
   .btn:hover {
     background-color: #fc4f4f;
     color: white; }
+  /* line 22, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_buttons.scss */
   .btn button {
     background: transparent;
     border: none;
     font-size: 16px;
     color: white; }
 
+/* line 30, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_partials/_buttons.scss */
 .stripe-button-el {
   display: none !important; }
 
+/* line 1, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_header.scss */
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,9 +181,11 @@ nav {
   height: 8vh;
   padding: 16px 64px; }
   @media only screen and (max-width: 767px) {
+    /* line 1, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_header.scss */
     nav {
       /* phones */
       display: none; } }
+  /* line 13, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_header.scss */
   nav ul {
     width: 100%;
     display: -webkit-box;
@@ -167,9 +203,11 @@ nav {
             flex-direction: row;
     list-style-type: none; }
     @media only screen and (max-width: 768px) {
+      /* line 13, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_header.scss */
       nav ul {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; } }
+    /* line 21, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_header.scss */
     nav ul li {
       width: 100%;
       color: #e9c244;
@@ -178,6 +216,7 @@ nav {
               flex-grow: 1;
       text-align: center; }
     @media only screen and (max-width: 768px) {
+      /* line 27, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_header.scss */
       nav ul li {
         width: 50%;
         margin: 1px 0;
@@ -186,6 +225,7 @@ nav {
             flex-wrap: wrap;
         -ms-flex-negative: 1;
             flex-shrink: 1; } }
+    /* line 36, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_header.scss */
     nav ul li a {
       -webkit-transition: all .2s ease-in-out;
       transition: all .2s ease-in-out;
@@ -196,14 +236,17 @@ nav {
       font-size: 12px;
       line-height: 32px;
       letter-spacing: 1px; }
+      /* line 46, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_header.scss */
       nav ul li a:hover {
         -webkit-transform: rotate(10deg);
                 transform: rotate(10deg); }
 
+/* line 1, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_footer.scss */
 footer {
   background-color: #0b0b0b;
   height: 15vh; }
 
+/* line 1, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_slider.scss */
 .flexslider {
   background: transparent none repeat scroll 0 0;
   border: none;
@@ -211,12 +254,15 @@ footer {
   margin-bottom: 56px;
   position: relative;
   width: 22vw; }
+  /* line 9, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_sections/_slider.scss */
   .flexslider img {
     margin: 0 auto; }
 
-section {
-  padding: 32px; }
+/* line 2, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+aside {
+  max-width: 90%; }
 
+/* line 8, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
 #section-1 {
   background-image: url("/img/cloudhand.jpg");
   background-position: center center;
@@ -229,6 +275,7 @@ section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start; }
+  /* line 12, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
   #section-1 h1 {
     border: 0;
     clip: rect(0 0 0 0);
@@ -241,17 +288,23 @@ section {
     color: red;
     height: 155px;
     width: 260px; }
+  /* line 19, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
   #section-1 #logo {
     width: 320px;
     margin-top: 7%;
     max-width: 20%; }
+    @media only screen and (max-width: 768px) {
+      /* line 19, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+      #section-1 #logo {
+        max-width: 60%;
+        margin: 0 auto; } }
 
+/* line 30, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
 #section-2 {
   background-image: url("/img/yellowsetup.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: yellow;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
@@ -259,21 +312,42 @@ section {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  text-align: center; }
+  text-align: center;
+  height: auto;
+  min-height: 100vh; }
+  @media only screen and (max-width: 768px) {
+    /* line 30, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+    #section-2 {
+      background-color: #e8ab1c;
+      background-image: none;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; } }
+  /* line 43, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
   #section-2 aside {
     width: 33.3333333333%;
+    height: auto;
     margin-right: 1em;
     font-size: 16px;
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
     padding-left: 1em;
-    padding-right: 1em; }
+    padding-right: 1em;
+    padding-top: 48px;
+    padding-bottom: 48px; }
     @media only screen and (max-width: 768px) {
+      /* line 43, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
       #section-2 aside {
-        width: 100%;
-        vertical-align: top; } }
+        min-width: 100%;
+        vertical-align: top;
+        display: block;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px; } }
 
+/* line 48, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
 #section-3 {
   background-color: #05173f;
   color: white;
@@ -285,8 +359,18 @@ section {
       -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: center; }
+  @media only screen and (max-width: 768px) {
+    /* line 48, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+    #section-3 {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -ms-flex-line-pack: end;
+          align-content: flex-end; } }
+  /* line 58, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
   #section-3 aside {
     width: 60%;
+    height: auto;
     margin-right: 1em;
     font-size: 16px;
     display: inline-block;
@@ -294,12 +378,24 @@ section {
     box-sizing: border-box;
     padding-left: 1em;
     padding-right: 1em;
+    padding-top: 48px;
+    padding-bottom: 48px;
     margin-bottom: 48px; }
     @media only screen and (max-width: 768px) {
+      /* line 58, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
       #section-3 aside {
-        width: 100%;
-        vertical-align: top; } }
+        min-width: 100%;
+        vertical-align: top;
+        display: block;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px; } }
+    @media only screen and (max-width: 768px) {
+      /* line 58, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+      #section-3 aside {
+        margin-bottom: 0px; } }
 
+/* line 67, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
 #section-4 {
   background-color: white;
   -webkit-box-orient: vertical;
@@ -310,25 +406,31 @@ section {
       -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: center; }
+  /* line 72, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
   #section-4 aside {
     width: 75%;
+    height: auto;
     margin-right: 1em;
     font-size: 16px;
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
     padding-left: 1em;
-    padding-right: 1em; }
+    padding-right: 1em;
+    padding-top: 48px;
+    padding-bottom: 48px; }
     @media only screen and (max-width: 768px) {
+      /* line 72, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
       #section-4 aside {
-        width: 100%;
-        vertical-align: top; } }
+        min-width: 100%;
+        vertical-align: top;
+        display: block;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px; } }
 
+/* line 77, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
 #section-5 {
-  background-image: url("/img/katy.jpg");
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: contain;
   background-color: #f7faf8;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -337,24 +439,57 @@ section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  height: 80vh; }
+  height: auto;
+  padding: 0;
+  margin: 0; }
+  @media only screen and (max-width: 768px) {
+    /* line 77, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+    #section-5 {
+      text-align: center; } }
+  /* line 87, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
   #section-5 h1 {
     color: red; }
+    @media only screen and (max-width: 768px) {
+      /* line 87, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+      #section-5 h1 {
+        text-align: center; } }
+  /* line 93, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+  #section-5 aside:last-of-type {
+    padding: 0;
+    margin: 0; }
+  /* line 97, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
   #section-5 aside {
     width: 50%;
+    height: auto;
     margin-right: 1em;
     font-size: 16px;
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
     padding-left: 1em;
-    padding-right: 1em; }
+    padding-right: 1em;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    position: relative;
+    padding-left: 32px; }
     @media only screen and (max-width: 768px) {
+      /* line 97, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
       #section-5 aside {
-        width: 100%;
-        vertical-align: top; } }
+        min-width: 100%;
+        vertical-align: top;
+        display: block;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px; } }
+    /* line 101, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
     #section-5 aside p {
       text-align: left; }
+    /* line 104, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
     #section-5 aside img {
       height: 100%;
-      width: 100%; }
+      width: 100%;
+      vertical-align: bottom; }
+    @media only screen and (max-width: 768px) {
+      /* line 97, Volumes/Giganto/Dropbox/Sites/tarot-of-cocktails/Sass/_layout/_homepage.scss */
+      #section-5 aside {
+        padding: 0 32px; } }

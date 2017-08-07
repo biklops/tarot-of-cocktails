@@ -37,6 +37,202 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/img\/cards 2.jpg": {
+		"ft": 16384,
+		"iS": 150516,
+		"oA": 0,
+		"oAP": "\/img\/cards 2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/cards.jpg": {
+		"ft": 16384,
+		"iS": 150516,
+		"oA": 0,
+		"oAP": "\/img\/cards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/circlecards.jpg": {
+		"ft": 16384,
+		"iS": 510895,
+		"oA": 0,
+		"oAP": "\/img\/circlecards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/circlecards.png": {
+		"ft": 32768,
+		"iS": 338455,
+		"oA": 0,
+		"oAP": "\/img\/circlecards.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/cloudhand.jpg": {
+		"ft": 16384,
+		"iS": 342618,
+		"oA": 0,
+		"oAP": "\/img\/cloudhand.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/drink1.png": {
+		"ft": 32768,
+		"iS": 1388371,
+		"oA": 0,
+		"oAP": "\/img\/drink1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/drink2.png": {
+		"ft": 32768,
+		"iS": 1061226,
+		"oA": 0,
+		"oAP": "\/img\/drink2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/drink3.png": {
+		"ft": 32768,
+		"iS": 1347795,
+		"oA": 0,
+		"oAP": "\/img\/drink3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/fakeCards.jpg": {
+		"ft": 16384,
+		"iS": 197628,
+		"oA": 0,
+		"oAP": "\/img\/fakeCards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/katy copy.jpg": {
+		"ft": 16384,
+		"iS": 577109,
+		"oA": 0,
+		"oAP": "\/img\/katy copy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/katy.jpg": {
+		"ft": 16384,
+		"iS": 577109,
+		"oA": 0,
+		"oAP": "\/img\/katy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/lightbox\/close.png": {
+		"ft": 32768,
+		"iS": 289,
+		"oA": 0,
+		"oAP": "\/img\/lightbox\/close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/lightbox\/loading.gif": {
+		"ft": 4194304,
+		"iS": 8476,
+		"oA": 0,
+		"oAP": "\/img\/lightbox\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/lightbox\/next.png": {
+		"ft": 32768,
+		"iS": 1697,
+		"oA": 0,
+		"oAP": "\/img\/lightbox\/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/lightbox\/prev.png": {
+		"ft": 32768,
+		"iS": 1701,
+		"oA": 0,
+		"oAP": "\/img\/lightbox\/prev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/littlelogo.png": {
+		"ft": 32768,
+		"iS": 8146,
+		"oA": 0,
+		"oAP": "\/img\/littlelogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/yellowpic.jpg": {
+		"ft": 16384,
+		"iS": 2667609,
+		"oA": 0,
+		"oAP": "\/img\/yellowpic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/yellowsetup.jpg": {
+		"ft": 16384,
+		"iS": 1037685,
+		"oA": 0,
+		"oAP": "\/img\/yellowsetup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1647,202 +1843,6 @@
 		"oA": 2,
 		"oAP": "\/SASSfolders.txt",
 		"oF": 0
-		},
-	"\/testy folder\/cards 2.jpg": {
-		"ft": 16384,
-		"iS": 150516,
-		"oA": 0,
-		"oAP": "\/testy folder\/cards 2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/testy folder\/cards.jpg": {
-		"ft": 16384,
-		"iS": 150516,
-		"oA": 0,
-		"oAP": "\/testy folder\/cards.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/testy folder\/circlecards.jpg": {
-		"ft": 16384,
-		"iS": 510895,
-		"oA": 0,
-		"oAP": "\/testy folder\/circlecards.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/testy folder\/circlecards.png": {
-		"ft": 32768,
-		"iS": 338455,
-		"oA": 0,
-		"oAP": "\/testy folder\/circlecards.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/testy folder\/cloudhand.jpg": {
-		"ft": 16384,
-		"iS": 342618,
-		"oA": 0,
-		"oAP": "\/testy folder\/cloudhand.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/testy folder\/drink1.png": {
-		"ft": 32768,
-		"iS": 1388371,
-		"oA": 0,
-		"oAP": "\/testy folder\/drink1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/testy folder\/drink2.png": {
-		"ft": 32768,
-		"iS": 1061226,
-		"oA": 0,
-		"oAP": "\/testy folder\/drink2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/testy folder\/drink3.png": {
-		"ft": 32768,
-		"iS": 1347795,
-		"oA": 0,
-		"oAP": "\/testy folder\/drink3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/testy folder\/fakeCards.jpg": {
-		"ft": 16384,
-		"iS": 197628,
-		"oA": 0,
-		"oAP": "\/testy folder\/fakeCards.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/testy folder\/katy copy.jpg": {
-		"ft": 16384,
-		"iS": 577109,
-		"oA": 0,
-		"oAP": "\/testy folder\/katy copy.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/testy folder\/katy.jpg": {
-		"ft": 16384,
-		"iS": 577109,
-		"oA": 0,
-		"oAP": "\/testy folder\/katy.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/testy folder\/lightbox\/close.png": {
-		"ft": 32768,
-		"iS": 289,
-		"oA": 0,
-		"oAP": "\/testy folder\/lightbox\/close.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/testy folder\/lightbox\/loading.gif": {
-		"ft": 4194304,
-		"iS": 8476,
-		"oA": 0,
-		"oAP": "\/testy folder\/lightbox\/loading.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/testy folder\/lightbox\/next.png": {
-		"ft": 32768,
-		"iS": 1697,
-		"oA": 0,
-		"oAP": "\/testy folder\/lightbox\/next.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/testy folder\/lightbox\/prev.png": {
-		"ft": 32768,
-		"iS": 1701,
-		"oA": 0,
-		"oAP": "\/testy folder\/lightbox\/prev.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/testy folder\/littlelogo.png": {
-		"ft": 32768,
-		"iS": 8146,
-		"oA": 0,
-		"oAP": "\/testy folder\/littlelogo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/testy folder\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/testy folder\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/testy folder\/yellowpic.jpg": {
-		"ft": 16384,
-		"iS": 2667609,
-		"oA": 0,
-		"oAP": "\/testy folder\/yellowpic.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/testy folder\/yellowsetup.jpg": {
-		"ft": 16384,
-		"iS": 1037685,
-		"oA": 0,
-		"oAP": "\/testy folder\/yellowsetup.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		}
 	},
 "hooks": [

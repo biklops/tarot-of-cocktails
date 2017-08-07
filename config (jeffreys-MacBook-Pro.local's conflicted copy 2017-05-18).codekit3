@@ -7,7 +7,7 @@
 		"uuidString": "84A84351-ADDF-4ED0-9CC5-75F60F4795E7"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25813",
 "files": {
 	"\/.vscode\/settings.json": {
 		"ft": 524288,
@@ -16,6 +16,36 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/_old version\/css\/custom.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/css\/custom-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_old version\/img\/cards.jpg": {
+		"ft": 16384,
+		"iS": 151315,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/cards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_old version\/img\/katy.jpg": {
+		"ft": 16384,
+		"iS": 578287,
+		"oA": 0,
+		"oAP": "\/_old version\/img\/katy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/css\/_mixins-and-variables.css": {
 		"aP": 1,
@@ -45,27 +75,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/circlecards.jpg": {
-		"ft": 16384,
-		"iS": 510895,
-		"oA": 0,
-		"oAP": "\/img\/circlecards.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/circlecards.png": {
-		"ft": 32768,
-		"iS": 338455,
-		"oA": 0,
-		"oAP": "\/img\/circlecards.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/cloudhand.jpg": {
@@ -3769,7 +3778,6 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
-	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

@@ -5,6 +5,14 @@ aside {
 }
 
 // Sections
+
+body section {
+
+  @media only screen and (max-width: $phone) {
+      padding: 0px 3*$unit;
+  }
+}
+
 #section-1 {
     @include background('/img/cloudhand.jpg', center center, no-repeat, cover);
     flex-flow: column;
@@ -22,7 +30,7 @@ aside {
         max-width: 20%;
         @media only screen and (max-width: $phone) {
             max-width: 60%;
-            margin: 0 auto;
+            margin: $unit*3 auto 0;
         }
     }
 }
@@ -47,6 +55,7 @@ aside {
 
 #section-3 {
     background-color: $midnight;
+    position: relative;
     color: white;
     flex-flow: column;
     justify-content: flex-end;
@@ -55,6 +64,10 @@ aside {
         justify-content: flex-end;
         align-content: flex-end;
     }
+    p {
+      max-width: 600px;
+      margin: 0 auto;
+    }
     aside {
         @include col (3, 5);
         margin-bottom: $unit*3;
@@ -62,6 +75,28 @@ aside {
             margin-bottom: 0px;
         }
     }
+}
+
+#section-3:before {
+  // @include background('/img/circlecards.png', no-repeat, cover);
+  position: absolute;
+  content: url(/img/circlecards.png);
+  // background-color: red;
+  display: block;
+  // top: 10%;
+  // left:0;
+  // right: 0;
+  // margin-left: auto;
+  // margin-right: auto;
+  width: 2400px;
+  height: 2400px;
+// animation: 25s spin linear infinite;
+
+}
+
+@keyframes spin{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
 }
 
 #section-4 {
@@ -83,6 +118,7 @@ aside {
     margin: 0;
     @media only screen and (max-width: $phone) {
         text-align: center;
+        padding-top: 3*$unit;
     }
     h1 {
         color: red;

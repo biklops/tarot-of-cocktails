@@ -264,7 +264,7 @@ aside {
         margin: 48px auto 0; } }
 
 #section-2 {
-  background-image: url("/img/yellowsetup.jpg");
+  background-image: url("https://biklops.github.io/tarot-of-cocktails/img/yellowsetup.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

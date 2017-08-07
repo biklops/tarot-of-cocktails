@@ -36,7 +36,7 @@ body section {
 }
 
 #section-2 {
-    @include background('/img/yellowsetup.jpg', center center, no-repeat, cover);
+    @include background('https://biklops.github.io/tarot-of-cocktails/img/yellowsetup.jpg', center center, no-repeat, cover);
     flex-flow: row;
     justify-content: flex-end;
     text-align: center;

@@ -17,6 +17,112 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_old version\/js\/bootstrap-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/bootstrap-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/bootstrap.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/bootstrap.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/flexslider.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/flexslider.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/jquery.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/jquery.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/lightbox.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/lightbox.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/masonry.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/masonry.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/parallax-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/parallax-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/scripts-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/scripts-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/twitterfetcher.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/twitterfetcher.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/js\/ytplayer.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_old version\/js\/ytplayer.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_old version\/sass\/theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_old version\/sass\/theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_old version\/sass\/theme.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_old version\/sass\/theme.css.map",
+		"oF": 0
+		},
 	"\/css\/_mixins-and-variables.css": {
 		"aP": 1,
 		"bl": 0,
@@ -26,6 +132,16 @@
 		"oAP": "\/css\/_mixins-and-variables-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/css\/custom.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/custom-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/style.css": {
 		"aP": 1,

@@ -231,7 +231,7 @@ aside {
     padding: 0px 48px; } }
 
 #section-1 {
-  background-image: url("/img/cloudhand.jpg");
+  background-image: url("https://biklops.github.io/tarot-of-cocktails/img/cloudhand.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
